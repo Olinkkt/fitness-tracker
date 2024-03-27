@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Fitness Tracker</h1>
+    <form id="fitnessForm">
+        <input type="text" id="exercise" placeholder="Exercise" required>
+        <input type="number" id="reps" placeholder="Reps">
+        <input type="number" id="sets" placeholder="Sets">
+        <input type="text" id="time" placeholder="Time (minutes)">
+        <input type="date" id="date" required>
+        <button type="submit">Add Record</button>
+    </form>
+    <h2>Your Fitness Records</h2>
+    <table id="recordsTable">
+        <thead>
+            <tr>
+                <th>Exercise</th>
+                <th>Reps</th>
+                <th>Sets</th>
+                <th>Time</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
